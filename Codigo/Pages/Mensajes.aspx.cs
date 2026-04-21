@@ -50,6 +50,14 @@ namespace ProyectoGrupo6.Pages
                             case "hayReservacion":
                                 MostrarMensaje("danger", "La habitación no se puede modificar porque tiene reservaciones activas.");
                                 break;
+
+                            case "CreadoHotel":
+                                MostrarMensaje("success", "El hotel fue creado correctamente.");
+                                break;
+
+                            case "EditarHotel":
+                                MostrarMensaje("success", "El hotel fue modificado correctamente.");
+                                break;
                         }
 
                         Session.Remove("Mensaje");

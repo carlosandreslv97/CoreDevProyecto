@@ -69,6 +69,7 @@ namespace ProyectoGrupo6
                     usuario.esEmpleado = esEmpleado;
                     usuario.nombreCompleto = nombreCompleto;
                     usuario.acceso = acceso;
+                    usuario.email = email;
 
 
                     // Validar los valores que devolvió el procedimiento

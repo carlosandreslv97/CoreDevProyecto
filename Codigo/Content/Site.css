@@ -223,7 +223,7 @@ h1, .h1 {
 /** Novbar color*/
 
 
-.fuente{   
+.fuente {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -233,12 +233,76 @@ h1, .h1 {
 /*Boton de ver contraseña**/
 
 .btnPswd {
-   position: absolute; 
-   right: 10px; 
-   top: 50%; 
-   transform: translateY(-50%); 
-   background: none; 
-   border: none; 
-   cursor: pointer; 
-   color: #555;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #555;
+}
+
+/*CSS DEL REGISTRO**/
+
+registro {
+    font-family: Arial;
+    background-color: #f5f5f5;
+}
+
+.contenedor_registro {
+    width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.contenedor_mod {
+    width: 500px;
+    margin: 80px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.mensajeError {
+    display: block;
+    background-color: #ffe5e5;
+    border: 1px solid #ff4d4d;
+    color: #b30000;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mensajeExito {
+    display: block;
+    background-color: #e6ffea;
+    border: 1px solid #28a745;
+    color: #1e7e34;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
 }

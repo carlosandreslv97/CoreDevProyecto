@@ -33,6 +33,7 @@ namespace ProyectoGrupo6
                     {
                         liGestionar.Visible = false;
                         liGestionHabitacion.Visible = false;
+                        liGestionHotel.Visible = false;
                         liMis.Visible = true;
                     }
 

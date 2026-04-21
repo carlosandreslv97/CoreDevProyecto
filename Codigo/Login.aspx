@@ -23,7 +23,7 @@
         <div class="row main-content bg-success text-center">
             <div class="col-md-4 text-center company__info">
                 <span class="company__logo">
-                    <img src="Imagen/LogoHotel.png" />
+                    <img src="Imagen/HotelLogo.png" />
                 </span>
             </div>
             <div class="col-md-8 col-xs-12 col-sm-12 login_form ">
@@ -61,6 +61,8 @@
                                 <asp:Button ID="btnValidar" runat="server" Text="Iniciar Sesión" OnClick="btnValidar_Click" CssClass="btn_log" />
                             </div>
                         </form>
+
+                        <a href="Registro.aspx" class="link">¿No tienes una cuenta? Regístrate aquí</a>
                     </div>
                 </div>
             </div>
